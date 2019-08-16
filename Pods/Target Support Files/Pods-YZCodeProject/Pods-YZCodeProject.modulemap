@@ -1,0 +1,6 @@
+framework module Pods_YZCodeProject {
+  umbrella header "Pods-YZCodeProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
