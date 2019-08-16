@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "YZNavigationVC.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //  初始化程序启动界面
+    YZNavigationVC * navigationVC = [[YZNavigationVC alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = navigationVC ;
+    
     return YES;
 }
 

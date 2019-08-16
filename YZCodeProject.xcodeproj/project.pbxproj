@@ -16,6 +16,11 @@
 		7E8A304D23067AE500353225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A304C23067AE500353225 /* main.m */; };
 		7E8A305723067AE500353225 /* YZCodeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A305623067AE500353225 /* YZCodeProjectTests.m */; };
 		7E8A306223067AE500353225 /* YZCodeProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A306123067AE500353225 /* YZCodeProjectUITests.m */; };
+		7E8A307E23069D1800353225 /* YZNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A307D23069D1800353225 /* YZNavigationVC.m */; };
+		7E8A308123069DE800353225 /* YZTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A308023069DE800353225 /* YZTabBarVC.m */; };
+		7E8A308423069E0600353225 /* YZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A308323069E0600353225 /* YZBaseViewController.m */; };
+		7E8A308A2306A1E900353225 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A30892306A1E900353225 /* HomeVC.m */; };
+		7E8A308D2306A1FF00353225 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A308C2306A1FF00353225 /* MineVC.m */; };
 		994BE56AE4370ABFA96AB862 /* Pods_YZCodeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3988A3E80D17B66CADBC64AE /* Pods_YZCodeProject.framework */; };
 		D7ECEDEE2D7FAA285FE6728A /* Pods_YZCodeProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E38E5CB052BAAC24049443 /* Pods_YZCodeProjectUITests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +65,16 @@
 		7E8A305D23067AE500353225 /* YZCodeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZCodeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8A306123067AE500353225 /* YZCodeProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZCodeProjectUITests.m; sourceTree = "<group>"; };
 		7E8A306323067AE500353225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8A307C23069D1800353225 /* YZNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZNavigationVC.h; sourceTree = "<group>"; };
+		7E8A307D23069D1800353225 /* YZNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZNavigationVC.m; sourceTree = "<group>"; };
+		7E8A307F23069DE800353225 /* YZTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZTabBarVC.h; sourceTree = "<group>"; };
+		7E8A308023069DE800353225 /* YZTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZTabBarVC.m; sourceTree = "<group>"; };
+		7E8A308223069E0600353225 /* YZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZBaseViewController.h; sourceTree = "<group>"; };
+		7E8A308323069E0600353225 /* YZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBaseViewController.m; sourceTree = "<group>"; };
+		7E8A30882306A1E900353225 /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		7E8A30892306A1E900353225 /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		7E8A308B2306A1FF00353225 /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		7E8A308C2306A1FF00353225 /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
 		875D53B916C651A7464F739D /* Pods-YZCodeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZCodeProject.release.xcconfig"; path = "Target Support Files/Pods-YZCodeProject/Pods-YZCodeProject.release.xcconfig"; sourceTree = "<group>"; };
 		97B2EABF5F0344F470538AC5 /* Pods-YZCodeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZCodeProject.debug.xcconfig"; path = "Target Support Files/Pods-YZCodeProject/Pods-YZCodeProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C29DEA2D4A4F19C1EA62A3D8 /* Pods-YZCodeProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZCodeProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-YZCodeProjectUITests/Pods-YZCodeProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,15 +156,11 @@
 		7E8A303C23067AE300353225 /* YZCodeProject */ = {
 			isa = PBXGroup;
 			children = (
-				7E8A303D23067AE300353225 /* AppDelegate.h */,
-				7E8A303E23067AE300353225 /* AppDelegate.m */,
-				7E8A304023067AE300353225 /* ViewController.h */,
-				7E8A304123067AE400353225 /* ViewController.m */,
-				7E8A304323067AE400353225 /* Main.storyboard */,
-				7E8A304623067AE500353225 /* Assets.xcassets */,
-				7E8A304823067AE500353225 /* LaunchScreen.storyboard */,
-				7E8A304B23067AE500353225 /* Info.plist */,
-				7E8A304C23067AE500353225 /* main.m */,
+				7E8A308523069EA800353225 /* MainAppDelegate(main入口) */,
+				7E8A307923069C5800353225 /* NetWork(网络) */,
+				7E8A307823069C2600353225 /* ThirdLibrary(三方库) */,
+				7E8A307723069C0500353225 /* Managers(全局管理者) */,
+				7E8A307623069BE600353225 /* Main(主要界面) */,
 			);
 			path = YZCodeProject;
 			sourceTree = "<group>";
@@ -170,6 +181,92 @@
 				7E8A306323067AE500353225 /* Info.plist */,
 			);
 			path = YZCodeProjectUITests;
+			sourceTree = "<group>";
+		};
+		7E8A307623069BE600353225 /* Main(主要界面) */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A30862306A19A00353225 /* Home(首页) */,
+				7E8A30872306A1B000353225 /* Mine(我的) */,
+				7E8A307A23069C8100353225 /* BaseView */,
+			);
+			path = "Main(主要界面)";
+			sourceTree = "<group>";
+		};
+		7E8A307723069C0500353225 /* Managers(全局管理者) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Managers(全局管理者)";
+			sourceTree = "<group>";
+		};
+		7E8A307823069C2600353225 /* ThirdLibrary(三方库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ThirdLibrary(三方库)";
+			sourceTree = "<group>";
+		};
+		7E8A307923069C5800353225 /* NetWork(网络) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "NetWork(网络)";
+			sourceTree = "<group>";
+		};
+		7E8A307A23069C8100353225 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A307B23069CC300353225 /* BaseController(控制器) */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		7E8A307B23069CC300353225 /* BaseController(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A307C23069D1800353225 /* YZNavigationVC.h */,
+				7E8A307D23069D1800353225 /* YZNavigationVC.m */,
+				7E8A307F23069DE800353225 /* YZTabBarVC.h */,
+				7E8A308023069DE800353225 /* YZTabBarVC.m */,
+				7E8A308223069E0600353225 /* YZBaseViewController.h */,
+				7E8A308323069E0600353225 /* YZBaseViewController.m */,
+			);
+			path = "BaseController(控制器)";
+			sourceTree = "<group>";
+		};
+		7E8A308523069EA800353225 /* MainAppDelegate(main入口) */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A303D23067AE300353225 /* AppDelegate.h */,
+				7E8A303E23067AE300353225 /* AppDelegate.m */,
+				7E8A304023067AE300353225 /* ViewController.h */,
+				7E8A304123067AE400353225 /* ViewController.m */,
+				7E8A304323067AE400353225 /* Main.storyboard */,
+				7E8A304623067AE500353225 /* Assets.xcassets */,
+				7E8A304823067AE500353225 /* LaunchScreen.storyboard */,
+				7E8A304B23067AE500353225 /* Info.plist */,
+				7E8A304C23067AE500353225 /* main.m */,
+			);
+			path = "MainAppDelegate(main入口)";
+			sourceTree = "<group>";
+		};
+		7E8A30862306A19A00353225 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A30882306A1E900353225 /* HomeVC.h */,
+				7E8A30892306A1E900353225 /* HomeVC.m */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		7E8A30872306A1B000353225 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A308B2306A1FF00353225 /* MineVC.h */,
+				7E8A308C2306A1FF00353225 /* MineVC.m */,
+			);
+			path = "Mine(我的)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,9 +489,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8A308423069E0600353225 /* YZBaseViewController.m in Sources */,
 				7E8A304223067AE400353225 /* ViewController.m in Sources */,
 				7E8A304D23067AE500353225 /* main.m in Sources */,
+				7E8A308A2306A1E900353225 /* HomeVC.m in Sources */,
+				7E8A308123069DE800353225 /* YZTabBarVC.m in Sources */,
+				7E8A308D2306A1FF00353225 /* MineVC.m in Sources */,
 				7E8A303F23067AE300353225 /* AppDelegate.m in Sources */,
+				7E8A307E23069D1800353225 /* YZNavigationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,7 +670,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 344BN3S4Y9;
-				INFOPLIST_FILE = YZCodeProject/Info.plist;
+				INFOPLIST_FILE = "YZCodeProject/MainAppDelegate(main入口)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -587,7 +689,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 344BN3S4Y9;
-				INFOPLIST_FILE = YZCodeProject/Info.plist;
+				INFOPLIST_FILE = "YZCodeProject/MainAppDelegate(main入口)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

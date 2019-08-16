@@ -11,6 +11,7 @@ pod 'Masonry',"1.1.0"
 pod 'MJRefresh',"3.2.0"
 pod 'SDWebImage',"5.1.0"
 pod 'YYText',"1.0.7"
+pod 'CocoaLumberjack',"3.5.3"
 
 
 
