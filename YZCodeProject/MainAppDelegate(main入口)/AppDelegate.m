@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "YZNavigationVC.h"
+#import "YZAdvertiseView.h"
+
 @interface AppDelegate ()
 
 @end
@@ -22,6 +24,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     self.window.rootViewController = navigationVC ;
+    
+    // 广告页
+    [[[YZAdvertiseView alloc] init] show];
     
     return YES;
 }

@@ -1,26 +1,19 @@
 //
-//  HomeVC.m
+//  YZLearnKVOVC.m
 //  YZCodeProject
 //
-//  Created by jonzhang on 2019/8/16.
+//  Created by jonzhang on 2019/8/19.
 //  Copyright © 2019 xinmei. All rights reserved.
 //
 
-#import "HomeVC.h"
+#import "YZLearnKVOVC.h"
 
-@interface HomeVC ()
+@interface YZLearnKVOVC ()
 
 @end
 
-@implementation HomeVC
-- (instancetype)init {
-    if (self = [super init]) {
-        self.tabBarItem.title = @"首页";
-        self.view.backgroundColor = [UIColor redColor];
+@implementation YZLearnKVOVC
 
-    }
-    return self;
-}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

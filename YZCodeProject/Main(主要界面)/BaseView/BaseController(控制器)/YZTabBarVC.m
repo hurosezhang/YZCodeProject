@@ -7,7 +7,7 @@
 //
 
 #import "YZTabBarVC.h"
-#import "HomeVC.h"
+#import "YZHomeVC.h"
 #import "MineVC.h"
 @interface YZTabBarVC ()
 
@@ -17,7 +17,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        HomeVC * homeVC = [[HomeVC alloc] init];
+        YZHomeVC * homeVC = [[YZHomeVC alloc] init];
         
         MineVC *mineVC = [[MineVC alloc] init];
         

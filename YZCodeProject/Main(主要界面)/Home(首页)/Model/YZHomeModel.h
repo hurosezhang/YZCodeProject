@@ -1,17 +1,17 @@
 //
-//  HomeVC.h
+//  YZHomeModel.h
 //  YZCodeProject
 //
 //  Created by jonzhang on 2019/8/16.
 //  Copyright © 2019 xinmei. All rights reserved.
 //
 
-#import "YZBaseViewController.h"
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HomeVC : YZBaseViewController
-
+@interface YZHomeModel : NSObject
+@property (nonatomic, copy) NSString *titie;
 @end
 
 NS_ASSUME_NONNULL_END
