@@ -26,7 +26,7 @@
     self.window.rootViewController = navigationVC ;
     
     // 广告页
-    [[[YZAdvertiseView alloc] init] show];
+//    [[[YZAdvertiseView alloc] init] show];
     
     return YES;
 }

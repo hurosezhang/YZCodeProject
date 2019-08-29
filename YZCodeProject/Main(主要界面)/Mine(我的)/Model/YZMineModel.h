@@ -1,8 +1,8 @@
 //
-//  YZHomeModel.h
+//  YZMineModel.h
 //  YZCodeProject
 //
-//  Created by jonzhang on 2019/8/16.
+//  Created by jonzhang on 2019/8/29.
 //  Copyright © 2019 xinmei. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YZHomeModel : NSObject
+@interface YZMineModel : NSObject
 @property (nonatomic, copy) NSString *title;
 @end
 

@@ -1,5 +1,5 @@
 //
-//  MineVC.h
+//  YZMineVC.h
 //  YZCodeProject
 //
 //  Created by jonzhang on 2019/8/16.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MineVC : YZBaseViewController
+@interface YZMineVC : YZBaseViewController
 
 @end
 

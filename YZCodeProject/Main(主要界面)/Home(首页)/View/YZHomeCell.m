@@ -26,7 +26,7 @@
     
     _model = model;
     
-    self.textLabel.text = _model.titie;
+    self.textLabel.text = _model.title;
     
     
 }

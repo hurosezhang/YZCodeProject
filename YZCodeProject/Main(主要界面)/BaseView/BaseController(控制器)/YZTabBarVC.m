@@ -8,7 +8,7 @@
 
 #import "YZTabBarVC.h"
 #import "YZHomeVC.h"
-#import "MineVC.h"
+#import "YZMineVC.h"
 @interface YZTabBarVC ()
 
 @end
@@ -19,7 +19,7 @@
     if (self) {
         YZHomeVC * homeVC = [[YZHomeVC alloc] init];
         
-        MineVC *mineVC = [[MineVC alloc] init];
+        YZMineVC *mineVC = [[YZMineVC alloc] init];
         
         self.viewControllers = @[homeVC,mineVC];
 

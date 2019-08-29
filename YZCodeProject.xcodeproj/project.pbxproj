@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		64C0F651EC7B70106FFA4077 /* Pods_YZCodeProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9476FEECD77FC33229D920 /* Pods_YZCodeProjectTests.framework */; };
+		7E7D9AF02317D7DC004272DC /* YZMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D9AEF2317D7DC004272DC /* YZMineModel.m */; };
+		7E7D9AF32317D7F4004272DC /* YZMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D9AF22317D7F4004272DC /* YZMineCell.m */; };
 		7E8A303F23067AE300353225 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A303E23067AE300353225 /* AppDelegate.m */; };
 		7E8A304223067AE400353225 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A304123067AE400353225 /* ViewController.m */; };
 		7E8A304523067AE400353225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8A304323067AE400353225 /* Main.storyboard */; };
@@ -20,7 +22,7 @@
 		7E8A308123069DE800353225 /* YZTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A308023069DE800353225 /* YZTabBarVC.m */; };
 		7E8A308423069E0600353225 /* YZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A308323069E0600353225 /* YZBaseViewController.m */; };
 		7E8A308A2306A1E900353225 /* YZHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A30892306A1E900353225 /* YZHomeVC.m */; };
-		7E8A308D2306A1FF00353225 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A308C2306A1FF00353225 /* MineVC.m */; };
+		7E8A308D2306A1FF00353225 /* YZMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A308C2306A1FF00353225 /* YZMineVC.m */; };
 		7E8A30912306A67300353225 /* YZScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A30902306A67300353225 /* YZScreen.m */; };
 		7E8A30972306AA4200353225 /* YZHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A30962306AA4200353225 /* YZHomeModel.m */; };
 		7E8A309B230A52A500353225 /* YZLearnKVOVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A309A230A52A500353225 /* YZLearnKVOVC.m */; };
@@ -55,6 +57,10 @@
 		68A3A086030E2F9F26A10DE9 /* Pods-YZCodeProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZCodeProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-YZCodeProjectTests/Pods-YZCodeProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74C313FF269FA28C230125D2 /* Pods-YZCodeProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZCodeProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-YZCodeProjectUITests/Pods-YZCodeProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		79E38E5CB052BAAC24049443 /* Pods_YZCodeProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZCodeProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7D9AEE2317D7DC004272DC /* YZMineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZMineModel.h; sourceTree = "<group>"; };
+		7E7D9AEF2317D7DC004272DC /* YZMineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMineModel.m; sourceTree = "<group>"; };
+		7E7D9AF12317D7F4004272DC /* YZMineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZMineCell.h; sourceTree = "<group>"; };
+		7E7D9AF22317D7F4004272DC /* YZMineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMineCell.m; sourceTree = "<group>"; };
 		7E8A303A23067AE300353225 /* YZCodeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZCodeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8A303D23067AE300353225 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E8A303E23067AE300353225 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,8 +85,8 @@
 		7E8A308323069E0600353225 /* YZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBaseViewController.m; sourceTree = "<group>"; };
 		7E8A30882306A1E900353225 /* YZHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZHomeVC.h; sourceTree = "<group>"; };
 		7E8A30892306A1E900353225 /* YZHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZHomeVC.m; sourceTree = "<group>"; };
-		7E8A308B2306A1FF00353225 /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
-		7E8A308C2306A1FF00353225 /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		7E8A308B2306A1FF00353225 /* YZMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZMineVC.h; sourceTree = "<group>"; };
+		7E8A308C2306A1FF00353225 /* YZMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMineVC.m; sourceTree = "<group>"; };
 		7E8A308F2306A67300353225 /* YZScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZScreen.h; sourceTree = "<group>"; };
 		7E8A30902306A67300353225 /* YZScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZScreen.m; sourceTree = "<group>"; };
 		7E8A30952306AA4200353225 /* YZHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZHomeModel.h; sourceTree = "<group>"; };
@@ -147,6 +153,33 @@
 				79E38E5CB052BAAC24049443 /* Pods_YZCodeProjectUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E7D9AEB2317D630004272DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A308B2306A1FF00353225 /* YZMineVC.h */,
+				7E8A308C2306A1FF00353225 /* YZMineVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E7D9AEC2317D639004272DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E7D9AEE2317D7DC004272DC /* YZMineModel.h */,
+				7E7D9AEF2317D7DC004272DC /* YZMineModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E7D9AED2317D643004272DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E7D9AF12317D7F4004272DC /* YZMineCell.h */,
+				7E7D9AF22317D7F4004272DC /* YZMineCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		7E8A303123067AE300353225 = {
@@ -274,7 +307,6 @@
 		7E8A30862306A19A00353225 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
-				7E8A3098230A526100353225 /* Detail(详情页) */,
 				7E8A30942306AA0F00353225 /* View */,
 				7E8A30932306AA0700353225 /* Model */,
 				7E8A30922306A9FB00353225 /* Controller */,
@@ -285,8 +317,10 @@
 		7E8A30872306A1B000353225 /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
-				7E8A308B2306A1FF00353225 /* MineVC.h */,
-				7E8A308C2306A1FF00353225 /* MineVC.m */,
+				7E8A3098230A526100353225 /* Detail(详情页) */,
+				7E7D9AED2317D643004272DC /* View */,
+				7E7D9AEC2317D639004272DC /* Model */,
+				7E7D9AEB2317D630004272DC /* Controller */,
 			);
 			path = "Mine(我的)";
 			sourceTree = "<group>";
@@ -579,14 +613,16 @@
 				7E8A30A6230A771300353225 /* YZAdversitseDataTool.m in Sources */,
 				7E8A30972306AA4200353225 /* YZHomeModel.m in Sources */,
 				7E8A308423069E0600353225 /* YZBaseViewController.m in Sources */,
+				7E7D9AF32317D7F4004272DC /* YZMineCell.m in Sources */,
 				7E8A309B230A52A500353225 /* YZLearnKVOVC.m in Sources */,
 				7E8A309E230A537F00353225 /* YZHomeCell.m in Sources */,
 				7E8A304223067AE400353225 /* ViewController.m in Sources */,
+				7E7D9AF02317D7DC004272DC /* YZMineModel.m in Sources */,
 				7E8A304D23067AE500353225 /* main.m in Sources */,
 				7E8A308A2306A1E900353225 /* YZHomeVC.m in Sources */,
 				7E8A308123069DE800353225 /* YZTabBarVC.m in Sources */,
 				7E8A30A3230A75E600353225 /* YZAdvertiseView.m in Sources */,
-				7E8A308D2306A1FF00353225 /* MineVC.m in Sources */,
+				7E8A308D2306A1FF00353225 /* YZMineVC.m in Sources */,
 				7E8A30912306A67300353225 /* YZScreen.m in Sources */,
 				7E8A303F23067AE300353225 /* AppDelegate.m in Sources */,
 				7E8A307E23069D1800353225 /* YZNavigationVC.m in Sources */,
