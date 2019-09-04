@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@class YZMineModel;
+@class YZMineDetailModel;
 @interface YZMineCell : UITableViewCell
-@property (nonatomic, strong) YZMineModel *model;
+@property (nonatomic, strong) YZMineDetailModel *model;
 + (YZMineCell *)cellWithTableView:(UITableView *)tableView;
 @end
 

@@ -15,17 +15,19 @@
     
     static NSString * cellID = @"YZMineCell";
     YZMineCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    
     if (cell == nil) {
         cell = [[YZMineCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     return cell;
 }
 
-- (void)setModel:(YZMineModel *)model {
+- (void)setModel:(YZMineDetailModel *)model {
     
     _model = model;
     
-    self.textLabel.text = _model.title;
+    self.textLabel.text = _model.titleRow;
     
     
 }

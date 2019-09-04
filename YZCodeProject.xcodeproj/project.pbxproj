@@ -10,6 +10,8 @@
 		64C0F651EC7B70106FFA4077 /* Pods_YZCodeProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9476FEECD77FC33229D920 /* Pods_YZCodeProjectTests.framework */; };
 		7E7D9AF02317D7DC004272DC /* YZMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D9AEF2317D7DC004272DC /* YZMineModel.m */; };
 		7E7D9AF32317D7F4004272DC /* YZMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D9AF22317D7F4004272DC /* YZMineCell.m */; };
+		7E7D9AF723195D7F004272DC /* YZFizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D9AF623195D7F004272DC /* YZFizz.m */; };
+		7E7D9AFF231FC2DD004272DC /* YZIosNetWorkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D9AFE231FC2DD004272DC /* YZIosNetWorkVC.m */; };
 		7E8A303F23067AE300353225 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A303E23067AE300353225 /* AppDelegate.m */; };
 		7E8A304223067AE400353225 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A304123067AE400353225 /* ViewController.m */; };
 		7E8A304523067AE400353225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8A304323067AE400353225 /* Main.storyboard */; };
@@ -61,6 +63,10 @@
 		7E7D9AEF2317D7DC004272DC /* YZMineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMineModel.m; sourceTree = "<group>"; };
 		7E7D9AF12317D7F4004272DC /* YZMineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZMineCell.h; sourceTree = "<group>"; };
 		7E7D9AF22317D7F4004272DC /* YZMineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMineCell.m; sourceTree = "<group>"; };
+		7E7D9AF523195D7F004272DC /* YZFizz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZFizz.h; sourceTree = "<group>"; };
+		7E7D9AF623195D7F004272DC /* YZFizz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZFizz.m; sourceTree = "<group>"; };
+		7E7D9AFD231FC2DD004272DC /* YZIosNetWorkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZIosNetWorkVC.h; sourceTree = "<group>"; };
+		7E7D9AFE231FC2DD004272DC /* YZIosNetWorkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZIosNetWorkVC.m; sourceTree = "<group>"; };
 		7E8A303A23067AE300353225 /* YZCodeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZCodeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8A303D23067AE300353225 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E8A303E23067AE300353225 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -180,6 +186,26 @@
 				7E7D9AF22317D7F4004272DC /* YZMineCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7E7D9AF423195D64004272DC /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A3099230A52A500353225 /* YZLearnKVOVC.h */,
+				7E8A309A230A52A500353225 /* YZLearnKVOVC.m */,
+				7E7D9AF523195D7F004272DC /* YZFizz.h */,
+				7E7D9AF623195D7F004272DC /* YZFizz.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		7E7D9AFC231FC287004272DC /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				7E7D9AFD231FC2DD004272DC /* YZIosNetWorkVC.h */,
+				7E7D9AFE231FC2DD004272DC /* YZIosNetWorkVC.m */,
+			);
+			path = NetWork;
 			sourceTree = "<group>";
 		};
 		7E8A303123067AE300353225 = {
@@ -364,8 +390,8 @@
 		7E8A3098230A526100353225 /* Detail(详情页) */ = {
 			isa = PBXGroup;
 			children = (
-				7E8A3099230A52A500353225 /* YZLearnKVOVC.h */,
-				7E8A309A230A52A500353225 /* YZLearnKVOVC.m */,
+				7E7D9AFC231FC287004272DC /* NetWork */,
+				7E7D9AF423195D64004272DC /* KVO */,
 			);
 			path = "Detail(详情页)";
 			sourceTree = "<group>";
@@ -610,6 +636,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7D9AFF231FC2DD004272DC /* YZIosNetWorkVC.m in Sources */,
 				7E8A30A6230A771300353225 /* YZAdversitseDataTool.m in Sources */,
 				7E8A30972306AA4200353225 /* YZHomeModel.m in Sources */,
 				7E8A308423069E0600353225 /* YZBaseViewController.m in Sources */,
@@ -622,6 +649,7 @@
 				7E8A308A2306A1E900353225 /* YZHomeVC.m in Sources */,
 				7E8A308123069DE800353225 /* YZTabBarVC.m in Sources */,
 				7E8A30A3230A75E600353225 /* YZAdvertiseView.m in Sources */,
+				7E7D9AF723195D7F004272DC /* YZFizz.m in Sources */,
 				7E8A308D2306A1FF00353225 /* YZMineVC.m in Sources */,
 				7E8A30912306A67300353225 /* YZScreen.m in Sources */,
 				7E8A303F23067AE300353225 /* AppDelegate.m in Sources */,

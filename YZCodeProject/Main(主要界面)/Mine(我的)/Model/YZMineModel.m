@@ -11,3 +11,9 @@
 @implementation YZMineModel
 
 @end
+
+@implementation YZMineDetailModel
+
+
+
+@end

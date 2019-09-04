@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    // 设置一个背景色
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 /*
